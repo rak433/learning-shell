@@ -9,7 +9,7 @@ echo "print the script name $0"
 echo "print the user who is running the script $USER"
 echo "Print home directorey of current user $HOME"
 echo "print the curent script PID $$"
-sleap 10 &
+sleep 10 &
 echo "print the backend PID $!"
 echo "print the line number $LINENO"
 echo "print how much tike taken by script to execute $SECONDS"
